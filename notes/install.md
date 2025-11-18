@@ -1,6 +1,25 @@
+# Install yay
+
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/yay-git.git
+cd yay-git
+makepkg -si
+
+# Install google-chrome
+
+yay -S google-chrome
+
+# clone repo
+
+git clone https://github.com/scarmonger/manjaro-hypr
+
+~/marc/GitHub/wayland
+
 # Install app
 
 sudo pacman -S ranger telegram-desktop kitty yazi pinta flameshot
+
+sudo pacman -S thunar nautilus
 
 # Install neovim
 
